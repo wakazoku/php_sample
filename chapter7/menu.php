@@ -5,5 +5,5 @@
 <a href="purchase-input.php">購入</a>
 <a href="login-input_.php">ログイン</a>
 <a href="logout-input_.php">ログアウト</a>
-<a href="customer-input.php">会員登録</a>
+<a href="customer-input_.php">会員登録</a>
 <hr>
