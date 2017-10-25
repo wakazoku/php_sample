@@ -5,6 +5,8 @@ db:
         MYSQL_DATABASE: app
     ports:
        - 4306:3306
+    volumes:
+        - //Users/{userName}/php_sample/db/datadir:/var/lib/mysql
 web:
     image: test/php:5.6.23-apache
     volumes:

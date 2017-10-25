@@ -1,0 +1,3 @@
+db/datadir/*
+.DS_Store
+!.keep
