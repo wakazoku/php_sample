@@ -1,10 +1,10 @@
 <?php
-$dsn = 'mysql:dbname=app;host='.$_ENV['MYSQL_PORT_3306_TCP_ADDR'];
+$dsn = 'mysql:dbname=app;host='.$_ENV['MYSQL_PORT_3306_TCP_ADDR'] . ';charset=utf8';
 $user = 'root';
 $password = $_ENV['MYSQL_ENV_MYSQL_ROOT_PASSWORD'];
- 
+
 $dbh = new PDO($dsn, $user, $password);
-  
+
 $sql = 'select * from test;';
 ?>
 
