@@ -1,17 +1,18 @@
 db:
-    image: mysql:latest
+    build: ./environment/db/
     environment:
         MYSQL_ROOT_PASSWORD: root
         MYSQL_DATABASE: app
+        TZ: "Asia/Tokyo"
     ports:
        - 4306:3306
     volumes:
-        - //Users/{userName}/php_sample/db/datadir:/var/lib/mysql
+        - ./environment/db/volume/:/var/lib/mysql
 web:
-    image: test/php:5.6.23-apache
+    build: ./environment/php/
     volumes:
-        - /Users/{userName}/php_sample:/var/www/html
+        - ./app:/var/www/html
     links:
-        - db:mysql
+        - db
     ports:
-        - 8080:80
+        - 8888:80
