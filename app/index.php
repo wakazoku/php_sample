@@ -1,1 +1,3 @@
 HelloWorld!
+<?php
+phpinfo();
