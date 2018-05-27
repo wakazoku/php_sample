@@ -5,7 +5,7 @@
  * Time: 1:42
  */
 
-require_once 'ReadFileGenerator.php';
+require_once 'ReadFileGenerator.class.php';
 
 function readFiles(array $files, ReadFileGenerator $r_gen): Generator
 {

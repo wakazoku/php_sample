@@ -5,7 +5,7 @@
  * Time: 19:47
  */
 
-require_once 'common.php';
+require_once 'common.class.php';
 
 function showItem($value, $key){
     echo $key . ": " . $value . "<br />";

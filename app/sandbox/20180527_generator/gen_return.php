@@ -4,7 +4,7 @@
  * Date: 2018/05/27
  * Time: 0:59
  */
-require_once 'ReadFileGenerator.php';
+require_once 'ReadFileGenerator.class.php';
 
 $read_file_generator = new ReadFileGenerator();
 

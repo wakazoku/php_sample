@@ -4,7 +4,7 @@
  * Date: 2018/05/26
  * Time: 20:15
  */
-require_once 'common.php';
+require_once 'common.class.php';
 
 $common = new common();
 

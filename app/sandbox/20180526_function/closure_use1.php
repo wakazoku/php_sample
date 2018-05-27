@@ -4,7 +4,7 @@
  * Date: 2018/05/26
  * Time: 20:36
  */
-require_once 'common.php';
+require_once 'common.class.php';
 
 // 結果を求めるための関数
 $data = [100, 50, 10, 5];
